@@ -1,6 +1,5 @@
 # We.js Google API integration
 
-
 We.js plugin to connect in Google APIs with googleapis module
 
 ## Installation
@@ -17,7 +16,7 @@ we i we-plugin-google-api
 
 ## Testing
 
-- Configure one youtube key in config/local.js file
+- Configure google api keys in config/local.js file OR in systemSettings configs
 - run npm test
 
 ## Copyright and license
