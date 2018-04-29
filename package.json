@@ -1,0 +1,38 @@
+{
+  "name": "we-plugin-google-api",
+  "description": "Google api integration with support for systemSettings",
+  "version": "0.0.0",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "NODE_ENV=test LOG_LV=info ./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js"
+  },
+  "dependencies": {
+    "googleapis": "^29.0.0"
+  },
+  "devDependencies": {
+    "express-mysql-session": "^1.2.0",
+    "fs-extra": "^1.0.0",
+    "mocha": "^3.2.0",
+    "mysql2": "^1.5.3",
+    "rimraf": "^2.5.4",
+    "supertest": "^2.0.1",
+    "we-core": "^2.0.2",
+    "we-test-tools": "github:wejs/we-test-tools"
+  },
+  "keywords": [
+    "wejs-plugin",
+    "google-api"
+  ],
+  "files": [
+    "files/public",
+    "lib",
+    "locales",
+    "server",
+    "install.js",
+    "plugin.js"
+  ],
+  "repository": "wejs/we-plugin-google-api",
+  "author": "Alberto Souza <contato@albertosouza.net>",
+  "license": "MIT",
+  "wejs": {}
+}
