@@ -29,13 +29,12 @@ module.exports = function loadPlugin (projectPath, Plugin) {
 
   plugin.setRoutes({
     // authorization and refresh token restrival
-    'get /auth/google/authenticate': {
+    'get /auth/google-api/authenticate': {
       controller: 'googleApi',
       action: 'authenticate',
       permission: 'manage_google_api_tokens'
     },
-
-    'get /auth/google/callback': {
+    'get /auth/google-api/callback': {
       controller: 'googleApi',
       action: 'callback',
       permission: 'manage_google_api_tokens'
