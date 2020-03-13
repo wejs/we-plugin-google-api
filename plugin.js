@@ -22,6 +22,7 @@ module.exports = function loadPlugin (projectPath, Plugin) {
       googleApi: { // configuration if not use system settings for configuration
         client_id: null,
         client_secret: null,
+        // If null will be automatcaly set with hostname+'/auth/google-api/callback'
         redirect_uri: null
       }
     }

@@ -14,6 +14,12 @@ we i we-plugin-google-api
 
 * We.js site: http://wejs.org
 
+## API
+
+### URL to Autheticate, should be authenticated
+
+`get {hostname}/auth/google-api/authenticate`
+
 ## Testing
 
 - Configure google api keys in config/local.js file OR in systemSettings configs
